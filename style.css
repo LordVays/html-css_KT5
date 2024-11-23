@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://avatars.mds.yandex.net/i?id=8b02312e47234528cbad0a9d412588d7_l-7019444-images-thumbs&n=13);
+    background-size: contain;
+}
+
+.block{
+    height: 100px;
+    width: 180px;
+    margin-top: 280px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    animation-name: car;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    display: flex;
+}
+
+@keyframes car{
+    from { left: 0px;}
+    to {left: 1250px;}
+}
+
+.a2{
+height: 50px;
+width: 50px;
+border-radius: 100px;
+background-color: black;
+margin-top: 67px;
+margin-left: 70px;
+}
+
+.a1{
+height: 50px;
+width: 50px;
+border-radius: 100px;
+background-color: black;
+margin-left: 10px;
+margin-top: 70px;
+}
